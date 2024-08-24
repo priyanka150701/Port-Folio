@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hi!! This is Priyanka :)</title>
+    <link rel="stylesheet" href="file.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Devicon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
+    <!-- Fevicon -->
+    <link rel="icon" href="favicon.jpg" type="image/jpeg">    
+</head>
+<body>
+    <!-- Overlay for Curtain Effect -->
+    <div id="curtain-overlay">
+        <div class="curtain-content">
+            <div class="curtain-text">Passionate</div>
+            <div class="curtain-text">Imaginative</div>
+            <div class="curtain-text">Focused</div>
+        </div>
+    </div>
+
+    <header>
+        <div class="header-left">
+            <a href="index.html">Priyanka's Portfolio</a>
+        </div>
+        <nav class="header-nav">
+            <button class="menu-button">&#9776;</button>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#education">Education</a></li>
+                <!-- <li><a href="#expirience">Expirience</a></li> -->
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+        </nav>
+        <button id="scroll-to-top" onclick="scrollToTop()">&#8679;</button>
+    </header>
+    
+    <div class="container">
+    <section id="home">
+        <div class="grid-container">
+            <!-- First Column -->
+            <div class="column">
+                <div class="left-column">
+                    <a href="https://github.com/priyanka150701" target="_blank" class="icon">
+                        <i class="fab fa-github" style="margin-right: 10px;"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/priyankarakshit" target="_blank" class="icon">
+                        <i class="fab fa-linkedin" style="margin-right: 10px;"></i>
+                    </a>
+                    <a href="https://www.instagram.com/its_about_priyanka/" target="_blank" class="icon">
+                        <i class="fab fa-instagram" style="margin-right: 10px;"></i>
+                    </a>
+                </div>
+            </div>
+            
+    
+            <!-- Middle Column -->
+            <div class="column center-column">
+                <h1>I'm Priyanka Rakshit</h1>
+                <h3>Java Enthusiast and Web Developer</h3>
+                <p>An able, keen, skilled, and trustworthy individual seeking a software developer position. Bringing strong computer skills, and personal attributes including devotion, meeting goals, inventiveness, and the aptitude to follow through.</p>
+                <a href="#contact" class="button">Say Hello !! </a>
+            </div>
+    
+            <!-- Third Column -->
+            <div class="column">
+                <div class="profile-picture">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="about-header">
+            <h2>About Me</h2>
+            <h3>My Introduction</h3>
+        </div>
+        <div class="about-container">
+            <!-- Picture on the Left -->
+            <div class="about-image">
+                <img src="about.jpg" alt="Priyanka Rakshit">
+            </div>
+    
+            <!-- Content on the Right -->
+            <div class="about-content">
+                <!-- Info Boxes Container -->
+                <div class="info-box-container">
+                    <div class="info-box" id="projects-box">
+                        <a href="#projects"><h6>Completed</h6></a><p>Worked on multiple projects.</p>
+                    </div>
+                    <div class="info-box" id="internship-box">
+                        <a href="#experience"><h6>Experience</h6></a><p>Web Development internship at CipherByte Technologies</p>
+                    </div>
+                    <div class="info-box" id="support-box">
+                        <a href="#contact"><h6>Help & Support</h6></a><p>Ready to help online anytime</p>
+                    </div>
+                </div>
+    
+                <div class="about-paragraphs">
+                    <p> I am a passionate software developer with expertise in a range of programming languages including JAVA, JavaScript, HTML5, CSS3, C, C++, and Python. My experience extends to mobile development with Flutter, database management with SQL, and problem-solving with DSA. I am committed to delivering high-quality software solutions and continuously enhancing my skills.</p>
+                    <p>My academic background covers Object-Oriented Programming, Data Structures & Algorithms, Cloud Computing, Database Management Systems, Operating Systems, and Software Engineering. Proficient with IDEs like VS Code, Spyder, and Oracle. Enthusiastic about leveraging my technical skills and innovative mindset to contribute to impactful projects.</p>
+                </div>
+                
+                <a href="priyanka.pdf" class="cv-button" download>Download My CV</a>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Skills Section -->
+    <section id="skills">
+        <!-- Main Heading -->
+        <div class="skills-header">
+            <h1>SKILLS</h1>
+            <h4>My Technical and Verbal</h4>
+        </div>
+
+        <!-- Skills Container -->
+    <div class="skills-container">
+        <div class="box-container">
+            <!-- Technical Skills: Languages -->
+            <div class="skills-column">
+                <h3>Technical Skills: Languages</h3>
+                <ol>
+                    <ul><i class="devicon-java-plain colored"></i> JAVA</ul>
+                    <ul><i class="devicon-c-plain colored"></i> C Language</ul>
+                    <ul><i class="devicon-cplusplus-plain colored"></i> C++</ul>
+                    <ul><i class="devicon-flutter-plain colored"></i> Flutter</ul>
+                    <ul><i class="devicon-mysql-plain colored"></i> SQL</ul>
+                    <ul><i class="devicon-python-plain colored"></i> Python</ul>
+                    <ul><i class="fas fa-database"></i> DSA</ul> <!-- DSA might not have a specific icon, so using a general database icon -->
+                </ol>
+            </div>
+        </div>
+
+        <div class="box-container">
+            <!-- Web Technologies -->
+            <div class="skills-column">
+                <h3>Web Technologies</h3>
+                <ol>
+                    <ul><i class="devicon-javascript-plain colored"></i> JavaScript</ul>
+                    <ul><i class="devicon-html5-plain colored"></i> HTML5</ul>
+                    <ul><i class="devicon-css3-plain colored"></i> CSS3</ul>
+                </ol>
+            </div>
+        </div>
+
+        <div class="box-container">
+            <!-- Subjects -->
+            <div class="skills-column">
+                <h3>Subjects:</h3>
+                <ol>
+                    <ul><i class="fas fa-cogs"></i> Object-Oriented Programming</ul> <!-- Using a general icon for subjects -->
+                    <ul><i class="fas fa-code-branch"></i> Data Structure</ul> <!-- General icon -->
+                    <ul><i class="fas fa-database"></i> Database Management System</ul>
+                    <ul><i class="fas fa-desktop"></i> Operating System</ul>
+                    <ul><i class="fas fa-project-diagram"></i> Software Engineering</ul>
+                </ol>
+            </div>
+        </div>
+
+        <div class="box-container">
+            <!-- Others -->
+            <div class="skills-column">
+                <h3>Others:</h3>
+                <ol>
+                    <ul><i class="fas fa-comments"></i>   Communication</ul>
+                    <ul><i class="fas fa-lightbulb"></i>   Problem Solving</ul>
+                    <ul><i class="fas fa-heart"></i>   Self Motivation</ul>
+                    <ul><i class="fas fa-sync-alt"></i>   Adaptability</ul>
+                </ol>
+            </div>
+        </div>
+    </div>
+
+    </section>
+
+    <section id="projects" class="projects-section">
+        <h2 class="section-title">My Projects</h2>
+        <p class="section-subtitle">Demonstrating My Expertise</p>
+
+        <div class="slider-container">
+            <div class="slider" id="slider">
+                <div class="slide">
+                    <div class="project-details">
+                        <p>
+                            Created a To-Do List web app with HTML, CSS, and JavaScript. It supports task creation, editing, deletion, and completion, with data stored in Local Storage for persistence. Features include responsive design and task deadline update.
+                        </p>
+                    </div>
+                    <a href="https://priyanka150701.github.io/CBTCIP/" class="project-link">Check My Project</a>
+                    <img src="htmlTodo.jpg" alt="Project 1">
+                </div>
+                <div class="slide">
+                    <div class="project-details">
+                        <p>
+                            This Java-based Airline Ticket Booking System streamlines flight reservations. It utilizes Oracle SQL for efficient database management of flights,
+                            passengers, and bookings, ensuring a seamless, user-friendly experience with reliable backend support.
+                        </p>
+                    </div>
+                    <a href="https://github.com/priyanka150701/Airline-ticket-booking-system" class="project-link">Check My Project</a>
+                    <img src="airline.jpg" alt="Project 2">
+                </div>
+                <div class="slide">
+                    <div class="project-details">
+                        <p>
+                            This is an Android application developed using basic Flutter, incorporating shared preferences for efficient data storage and retrieval. The app provides a smooth and responsive user experience while ensuring essential data is persistently saved.
+                        </p>
+                    </div>
+                    <a href="https://github.com/priyanka150701/To-Do-List-Using-Flutter" class="project-link">Check My Project</a>
+                    <img src="fluttertodo.jpg" alt="Project 3">
+                </div>
+                <div class="slide">
+                    <div class="project-details">
+                        <p>
+                            This is a basic Python project built using Tkinter for the user interface. It leverages Oracle database for securely storing and managing user data, providing a solid foundation for building interactive applications with a robust backend.
+                            </p>
+                    </div>
+                    <a href="https://github.com/priyanka150701/TODO-List-using-python" class="project-link">Check My Project</a>
+                    <img src="pythontodo.jpg" alt="Project 4">
+                </div>
+                <div class="slide">
+                    <div class="project-details">
+                        <p>
+                            This project is a personal portfolio website built using HTML, CSS, and JavaScript. It showcases my skills, projects, and experience, featuring a responsive design and interactive elements for an engaging user experience.
+                        </p>
+                    </div>
+                    <a href="https://priyanka150701.github.io/Port-Folio/" class="project-link">Check My Project</a>
+                    <img src="portfolio.jpg" alt="Project 5">
+                </div>
+            </div>
+            <div class="arrow">
+                <button class="arrow left-arrow" onclick="prevSlide()"><<</button>
+                <button class="arrow right-arrow" onclick="nextSlide()">>></button>
+            </div>
+        </div>
+    </section>
+    
+    <section id="education">
+        <h2 class="education-title">EDUCATION</h2>
+        <h4 class="education-subtitle">My Academics</h4>
+        <div class="education-container">
+            <div class="education-box">
+                <div class="education-column">
+                    <div class="location-icon">&#x1f4cd;</div>
+                    <p>Kolkata</p>
+                </div>
+                <div class="education-column">
+                    <div class="institution-name">St. Thomas College of Engineering and Technology</div>
+                    <div class="pursuing-degree">Bachelor of Technology in Information Technology</div>
+                    <div class="education-row">
+                        <div class="education-year">2022-2025</div>
+                        <div class="education-score">OGPA: 8.56</div>
+                    </div>
+                </div>
+                <div class="education-column">
+                    <div class="graduation-icon">&#x1f393;</div>
+                    <p>Undergraduate</p>
+                </div>
+            </div>
+
+            <div class="education-box">
+                <div class="education-column">
+                    <div class="location-icon">&#x1f4cd;</div>
+                    <p>Kolkata</p>
+                </div>
+                <div class="education-column">
+                    <div class="institution-name">The Calcutta Technical School</div>
+                    <div class="pursuing-degree">Diploma in Computer Science and Technology</div>
+                    <div class="education-row">
+                        <div class="education-year">2019-2022</div>
+                        <div class="education-score">OGPA: 8.87</div>
+                    </div>
+                </div>
+                <div class="education-column">
+                    <div class="graduation-icon">&#x1f393;</div>
+                    <p>Diploma</p>
+                </div>
+            </div>
+
+            <div class="education-box">
+                <div class="education-column">
+                    <div class="location-icon">&#x1f4cd;</div>
+                    <p>Howrah</p>
+                </div>
+                <div class="education-column">
+                    <div class="institution-name">Santragachi Kedarnath Institution for Girls'</div>
+                    <div class="pursuing-degree">Higher Secondary Education with Pure Science</div>
+                    <div class="education-row">
+                        <div class="education-year">2018-2019</div>
+                        <div class="education-score">Percentage: 70.20%</div>
+                    </div>
+                </div>
+                <div class="education-column">
+                    <div class="graduation-icon">&#x1f393;</div>
+                    <p>Higher Secondary</p>
+                </div>
+            </div>
+            <!-- Repeat the above structure for each education entry -->
+        </div>
+    </section>
+   
+     <!-- Contact Section -->
+    <section id="contact">
+        <div class="contact-header">
+            <h2>Get In Touch</h2>
+            <h3>Contact Me</h3>
+        </div>
+        <div class="contact-container">
+            <!-- Left Container -->
+            <div class="contact-left">
+                <!-- Email Box -->
+                <div class="contact-box">
+                    <i class="fas fa-envelope"></i>
+                    <h4>Email</h4>
+                    <p>priyankarakshit1507@gmail.com</p>
+                    <a href="mailto:priyankarakshit1507@gmail.com" class="contact-button">Write to Me</a>
+                </div>
+                <!-- LinkedIn Box -->
+                <div class="contact-box">
+                    <i class="fab fa-linkedin"></i>
+                    <h4>LinkedIn</h4>
+                    <p>Priyanka Rakshit</p>
+                    <a href="https://www.linkedin.com/in/priyankarakshit/" class="contact-button">Write to Me</a>
+                </div>
+            </div>
+
+            <!-- Right Container -->
+            <div class="contact-right">
+                <h4>Send Me Your Message!</h4>
+                <form action="mailto:priyankarakshit1507@gmail.com" method="post" enctype="text/plain">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email Id:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    
+                    <button type="submit" class="send-message-button">
+                        Send Message <i class="fas fa-paper-plane"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    
+    
+    <!-- Add sections here -->
+    </div>
+        <script src="file.js"></script>
+    </div>
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Priyanka Rakshit. All Rights Reserved.</p>
+            <div class="footer-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#education">Education</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
